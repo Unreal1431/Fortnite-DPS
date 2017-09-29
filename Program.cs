@@ -13,7 +13,7 @@ namespace ConsoleApplication12
     {
         static void Main(string[] args)
         {
-            // создал стрингу которая читает файл, и рандомизатор чисел.
+            // создал стрингу которая читает файл, и рандомизатор чисел...
             StreamReader objReader = new StreamReader("e:\\dps.txt");
             string dpsLine = ""; ArrayList arrText = new ArrayList();
             Random rnd = new Random();
